@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar operador</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="js/crearOperador.js"></script>
+</head>
+<body>
+    <div class="col-3 mx-auto mt-5">
+        <h2 class="text-center">Registrar Operador</h2>
+        <form id = "operadorForm">
+            <label class="mt-2">Nombre</label>
+            <input id="nombre" type="text" placeholder="Nombre del operador" class="form-control">
+            <label class="mt-2">Apellidos</label>
+            <input id="apellidos" type="text" placeholder="Apellidos del operador" class="form-control">
+            <div class="d-flex justify-content-evenly mt-3 mb-3">
+                <a class="btn btn-primary btn-lg col-4" onclick="crearOperador()">Registrar</a>
+                <a href="/verOperadores.html" class="btn btn-secondary btn-lg col-4">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
